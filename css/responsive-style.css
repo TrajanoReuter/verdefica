@@ -1,0 +1,183 @@
+@media only screen and (max-width: 1186px){
+    img.header-t{
+        bottom: -233px;
+        z-index: 0;
+        right: 265px;
+    }
+    section#revolution h2 span.sust{
+        margin-left:73px;
+    }
+    section#one h2 span.l2, section#one h2 span.l3{
+        margin-left: 58px;
+    }
+    section#two h2 span.l2, section#two h2 span.l3{
+        margin-left: 60px;
+    }
+    section#three h2 span.l2{
+        margin-left: 64px;
+    }
+    section#three h2 span.l3{
+        margin-left: 63px;
+    }
+    section#one, section#two, section#three{
+        height: 700px;
+    }
+    span.for-l1, span.for-l2{
+        margin-left: 15px;
+    }
+    span.src-l1, span.src-l2{
+        margin-left:15px;
+    }
+    h2.for{
+        margin-top: 110px;
+    }
+    section#searching h2{
+        font-size: 1.67em;
+    }
+    img.bag{
+        margin-top: 100px;
+        width:400px !important;
+        height:538px !important;
+    }
+    img.food{
+        margin-top: 100px;
+        width:450px !important;
+        height:577px !important;
+    }
+     img.wallet{
+        margin-top: 140px;
+        width:400px !important;
+        height:426px !important;
+    }
+    h2{
+        font-size: 1.7em !important;
+    }
+    img.bar{
+        left: -92px;
+        width: 257px;
+        top: 43px;
+    }
+    img.brand-t{
+        bottom: -231px;
+    }
+}
+
+@media only screen and (max-width: 988px){
+    .triangle{
+        top: -15px;
+    }
+    img.header-t{
+        right: calc(50% - 60px);
+        bottom: -263px;
+    }
+    section#searching p{
+        margin-top: 140px;
+    }
+    section#searching{
+        height: 640px;
+    }
+    section#one, section#two, section#three{
+        height: 600px;
+    }
+     section#one h2, section#two h2, section#three h2{
+       margin-top: 150px;
+    }
+    section#one p, section#two p, section#three p{
+        text-align: center;
+        margin: 120px 0 0 0;
+    }
+    section#revolution h2{
+        font-size: 1.2em;
+    }
+    img.brand-t{
+        bottom: -232px;
+    }
+    section#searching h2{
+        text-align: center;
+        margin: 60px auto;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    img.logo{
+        right: 40px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    section#revolution{
+        height: 400px;
+    }
+    section#revolution h2{
+        margin-top: 80px;
+        text-align: center;
+    }
+    section#revolution p{
+        text-align: center !important;
+        margin-top: 55px;
+    }
+    .social{
+        text-align: center;
+    }
+    img.facebook, img.instagram{
+        margin-top: 50px;
+    }
+    h2.for{
+        margin-top: -50px;
+        text-align: center;
+    }
+    h2.everybody{
+        margin-top: 120px;
+        text-align: center;
+    }
+    section#world{
+        padding-bottom: 140px;
+    }
+    section#searching p{
+        text-align: center;
+    }
+    section#searching h2{
+        text-align: center;
+        margin: 80px 0 0 0;
+    }
+    section#brand{
+        padding-bottom: 40px;
+    }
+    header#index p{
+        text-align: center;
+        margin-left: 5px;
+    }
+     h2{
+        font-size: 1.8em !important;
+    }
+    section#one h2 span.l2, section#one h2 span.l3{
+        margin-left: 60px;
+    }
+    section#two h2 span.l2, section#two h2 span.l3{
+        margin-left: 62px;
+    }
+    section#three h2 span.l2{
+        margin-left: 66px;
+    }
+    section#three h2 span.l3{
+        margin-left: 64px;
+    }
+
+}
+
+@media only screen and (max-width: 425px){
+    header#index h2{
+        margin-top: 160px !important;
+        font-size: 1.8em;
+    }
+    header#index p{
+        font-size: 1em;
+    }
+    section#searching{
+        height: 760px !important;
+    }
+
+}
+
+

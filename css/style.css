@@ -1,0 +1,404 @@
+/*FONTES*/
+@font-face{
+    font-family: 'Raleway-Light';
+    src: url('../fonts/Raleway/Raleway-Light.ttf');
+
+}
+
+@font-face{
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/Raleway/Raleway-Regular.ttf');
+
+}
+
+@font-face{
+    font-family: 'Raleway-SemiBold';
+    src: url('../fonts/Raleway/Raleway-SemiBold.ttf');
+}
+
+@font-face{
+    font-family: 'UbuntuCondensed-Regular';
+    src: url('../fonts/Ubuntu/UbuntuCondensed-Regular.ttf');
+}
+
+body{
+     font-family: 'Raleway-Regular';
+}
+
+h2{
+    font-family: 'UbuntuCondensed-Regular' !important;
+    text-shadow: 1px 1px 2px #dddddd !important;
+    letter-spacing: 5px;
+    font-size: 2.5em !important;
+}
+
+p{
+    font-size: 1.5em !important;
+    text-align: justify !important;
+}
+
+button{
+    width: 100%;
+    height: 38px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: bold;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+
+button.white{
+    background-color: #fff;
+    color: #000;
+}
+
+button.white:hover{
+    background-color: #2ecc71;
+    color: #fff;
+    border: 2px solid #000;
+
+}
+
+button.transparent{
+    border: 2px solid #000;
+    background-color: transparent;
+    color: #000;
+}
+
+button.transparent:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+button.black{
+    border: 2px solid #000;
+    background-color: #000;
+    color: #fff;
+}
+
+button.black:hover{
+    background-color: #2ecc71;
+    border: 2px solid transparent;
+}
+
+img.logo{
+    right: 0;
+    position: absolute;
+    margin-top: 60px;
+}
+
+header#index {
+    height: 782px;
+    width: 100%;
+    background-image: url('../img/header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header#index .container{
+    position: relative;
+}
+
+img.header-t{
+    position: absolute;
+    bottom: -263px;
+    right: 340px;
+}
+
+header#index h2{
+    margin-left: 30px;
+    margin-top: 260px;
+    text-align: left;
+    font-size: 2.8em;
+    text-shadow: 1px 1px 2px #ccc;
+    line-height: 48px;
+    letter-spacing:7px !important;
+}
+
+header#index p{
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 60px;
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px #ddd;
+    margin-bottom: 60px;
+}
+
+img.woman-bg{
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+}
+
+section#world{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+}
+
+section#world .container{
+    position: relative;
+}
+
+img.world-t{
+    position: absolute;
+    bottom: -293px;
+    left: 120px;
+}
+
+section#world h2{
+    font-size: 2.4em;
+}
+
+h2.for{
+    margin-top: 80px;
+}
+
+span.for-l1{
+    margin-left: 18px;
+}
+span.for-l2{
+    margin-left: 18px;
+}
+
+h2.everybody{
+    margin-bottom: 40px;
+}
+
+img.bar{
+    position: absolute;
+    left: -103px;
+    width:296px;
+    top: 34px;
+}
+
+section#world button{
+    margin-top: 60px;
+}
+
+section#searching{
+    height: 580px;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+section#searching .container{
+    position: relative;
+}
+
+section#searching h2{
+    margin-left: 25%;
+    margin-top: 80px;
+}
+
+span.src-l1{
+    margin-left:19px;
+}
+span.src-l2{
+    margin-left:19px;
+}
+
+section#searching p{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    position: relative;
+    z-index: 2;
+}
+
+img.hair{
+    position: absolute;
+    top: 225px;
+    right: calc(50% - 280px);
+}
+
+section#one{
+    background-color: #fff;
+    height: 900px;
+    width: 100%;
+    position: relative;
+}
+
+section#one h2{
+    font-family: 'Raleway-Regular';
+    font-size: 2.6em;
+    margin-top: 170px;
+}
+
+section#one h2 span.number{
+    font-size: 2.2em;
+}
+
+section#one h2 span.l2, section#one h2 span.l3{
+    margin-left: 78px;
+}
+
+section#one p{
+    font-size: 1.4em;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+
+img.bag{
+    margin-top: 60px;
+    position: absolute;
+    right: 0;
+}
+
+section#two{
+    background-color: #fff;
+    height: 900px;
+    width: 100%;
+}
+
+section#two h2{
+    font-family: 'Raleway-Regular';
+    font-size: 2.6em;
+    margin-top: 200px;
+    position: relative;
+}
+
+section#two h2 span.number{
+    font-size: 2.2em;
+}
+
+section#two h2 span.l2, section#two h2 span.l3{
+    margin-left: 81px;
+}
+
+section#two p{
+    font-size: 1.4em;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+img.food{
+    position: absolute;
+    left: 0;
+}
+
+section#three{
+    background-color: #fff;
+    height: 900px;
+    width: 100%;
+}
+
+section#three h2{
+    font-family: 'Raleway-Regular';
+    font-size: 2.6em;
+    margin-top: 120px;
+    position: relative;
+}
+
+section#three h2 span.number{
+    font-size: 2.2em;
+}
+
+section#three h2 span.l2{
+    margin-left: 85px;
+}
+
+section#three h2 span.l3{
+    margin-left: 82px;
+}
+
+section#three p{
+    font-size: 1.4em;
+    margin-top: 80px;
+    margin-left: 80px;
+}
+
+img.wallet{
+    position: absolute;
+    right: 0;
+}
+section#brand{
+    width: 100%;
+    min-height: 420px;
+    background-color: #000;
+}
+
+section#brand .container{
+    position: relative;
+}
+
+section#brand h2{
+    color: #fff;
+    margin-top: 120px;
+    font-size: 2.8em;
+    margin-bottom: 50px;
+}
+
+img.brand-t{
+    position: absolute;
+    bottom: -209px;
+    left: 260px;
+}
+
+section#revolution{
+    width: 100%;
+    height: 290px;
+    background-color:#eeeeee;
+}
+
+section#revolution h2{
+    color: #000;
+    font-size: 2.2em;
+    margin-top: 120px;
+}
+
+section#revolution h2 span.sust{
+    margin-left: 95px;
+    margin-top: 60px;
+}
+
+section#revolution p{
+    margin-top: 120px;
+    font-size: 1.3em;
+}
+
+img.facebook, img.instagram{
+    display: inline-block;
+    margin: 110px 10px 10px 10px;
+    width: 40px;
+    height: 40px;
+}
+
+footer{
+    background-color: #fff;
+    height: 0;
+}
+
+footer .container{
+    position: relative;
+}
+
+img.footer-t{
+    position: absolute;
+    top: -93px;
+    right: 240px;
+}
+
+img.wallet, img.food, img.bag{
+    display: none;
+}
+
+.triangle{
+    position: absolute;
+    z-index: 0;
+    top: 200px;
+    left: calc(50% - 112px);
+}
+
